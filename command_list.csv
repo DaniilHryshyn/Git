@@ -1,0 +1,73 @@
+    1  git configuration --global use.name "Daniil Hryshyn"
+    2  git config --global user.name "Daniil Hryshyn"
+    3  git config --global user.mail "dhryshyn.main@gmail.com"
+    4  git clone https://github.com/DaniilHryshyn/HW_10.git
+    5  cd HW_1-
+    6  cd HW_10
+    7  git clone https://github.com/DaniilHryshyn/HW_10.git
+    8  git clone https://github.com/DaniilHryshyn/HW_10.git
+    9  cd HW_10
+   10  touch text_ignore.txt
+   11  nano .gitignore
+   12  nano .gitignore
+   13  git status
+   14  nano .gitignore
+   15  nano .gitignore
+   16  [200~
+   17  $ nano .gitignore
+   18  grdam@Daniil MINGW64 ~/OneDrive/Рабочий стол/GIT
+   19  $ git clone https://github.com/DaniilHryshyn/HW_10.git
+   20  Cloning into 'HW_10'...
+   21  remote: Enumerating objects: 4, done.
+   22  remote: Counting objects: 100% (4/4), done.
+   23  remote: Compressing objects: 100% (3/3), done.
+   24  remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+   25  Receiving objects: 100% (4/4), done.
+   26  grdam@Daniil MINGW64 ~/OneDrive/Рабочий стол/GIT
+   27  $ cd HW_10
+   28  grdam@Daniil MINGW64 ~/OneDrive/Рабочий стол/GIT/HW_10 (main)
+   29  $ touch text_ignore.txt
+   30  grdam@Daniil MINGW64 ~/OneDrive/Рабочий стол/GIT/HW_10 (main)
+   31  $ nano .gitignore
+   32  grdam@Daniil MINGW64 ~/OneDrive/Рабочий стол/GIT/HW_10 (main)
+   33  $ nano .gitignore
+   34  grdam@Daniil MINGW64 ~/OneDrive/Рабочий стол/GIT/HW_10 (main)
+   35  $ git status
+   36  On branch main
+   37  Your branch is up to date with 'origin/main'.
+   38  Changes not staged for commit:
+   39    (use "git add <file>..." to update what will be committed)
+   40    (use "git restore <file>..." to discard changes in working directory)
+   41          modified:   .gitignore
+   42  no changes added to commit (use "git add" and/or "git commit -a")
+   43  grdam@Daniil MINGW64 ~/OneDrive/Рабочий стол/GIT/HW_10 (main)
+   44  $ nano .gitignore
+   45  grdam@Daniil MINGW64 ~/OneDrive/Рабочий стол/GIT/HW_10 (main)
+   46  $ nano .gitignore
+   47  grdam@Daniil MINGW64 ~/OneDrive/Рабочий с
+   48  echo "text_ignore.txt" >> .gitignore
+   49  git status
+   50  git add
+   51  git commit -m change_1
+   52  git add .
+   53  git commit -m change_1
+   54  touch main_test.txt
+   55  git add .
+   56  git commit -m change_2
+   57  git branch develop
+   58  git checkout develop
+   59  touch develop_test.txt
+   60  git add .
+   61  git commit -m change_3
+   62  nano
+   63  nano develop_test.txt
+   64  git status
+   65  git add .
+   66  echo "Some changes" > develop_test.txt
+   67  git status
+   68  git add .
+   69  git commit -m change_4
+   70  git checkout main
+   71  git merge develop main
+   72  git log
+   73  history > command_list.csv
